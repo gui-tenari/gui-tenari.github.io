@@ -63,6 +63,14 @@ nav li {
     display: inline-block;
 }
 
+.introduce h1 {
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    margin: -10px;
+    left: 5%
+}
+
 .introduce #introduce_text {
     position: relative;
     left: 340px;
@@ -75,4 +83,77 @@ nav li {
     width: 300px;
     position: absolute;
     border-radius: 50%;
+    background-color: black;
+    border:6px solid black;
 }
+
+.info_box {
+    padding: 15px;
+    border-radius: 6px;
+    background-color: rgb(68, 65, 65);
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 250px;
+    max-height: 250px;
+    text-align: center;
+    display:inline-block;
+    margin: 5px;
+}
+
+.info_box h3{
+    position: relative;
+    left: -15px;
+    top: -7px;
+    text-decoration: underline;
+
+}
+
+.info_box ul{
+    position: relative;
+    list-style-type: none ;
+    text-align: center;
+    left: -30px;
+}
+
+.info_box ul li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+.info_box ol {
+    text-align: left;
+}
+
+.bottom {
+    background-color: rgb(24, 22, 22);
+    border-radius: 10px;
+    max-height: 70px;
+    position: relative;
+    
+}
+
+.bottom img:hover {
+    opacity: 0.3;
+}
+
+.bottom #linkedin{
+    position: relative;
+    width: 90px;
+    left: 40%;
+    top: -10px;
+}
+
+.bottom #git {
+    position: relative;
+    width: 60px;
+    left: 45%;
+    top: -25px;
+}
+
+
