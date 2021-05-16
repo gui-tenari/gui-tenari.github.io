@@ -46,14 +46,6 @@ header h1 {
   
 }
 
-section {
-    background-color: white;
-    color: gray;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-}
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -64,4 +56,23 @@ nav li {
     display: inline-block;
     margin-right:4%;
     /* border: 2px solid white; */
+}
+
+.introduce {
+    padding: 30px;
+    display: inline-block;
+}
+
+.introduce #introduce_text {
+    position: relative;
+    left: 340px;
+    top: -10px;
+    max-width: 80%;
+    text-align: left;
+}
+
+.introduce img{
+    width: 300px;
+    position: absolute;
+    border-radius: 50%;
 }
