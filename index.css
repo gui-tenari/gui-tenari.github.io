@@ -7,11 +7,11 @@ body {
 }
 
 header {
-    background-image: url(/Images/background_top.jpg);;
+    background-image: url(/Images/background_top.jpg);
     padding: 20px;
     height: 100px;
     background-color: black;
-    text-align: right;;
+    text-align: right;
 } 
 
 header a {
@@ -30,9 +30,7 @@ header .logo a{
     display: inline-block;
     position: relative;
     top: -20px;
-    left: -10px
-    
-   
+    left: -;
 }
 
 header h1 {  
@@ -43,7 +41,6 @@ header h1 {
     padding: 20px;
     position: fixed;
     top: 1%;
-  
 }
 
 nav ul {
@@ -68,7 +65,7 @@ nav li {
     position: relative;
     text-align: center;
     margin: -10px;
-    left: 5%
+    left: 5%;
 }
 
 .introduce #introduce_text {
